@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="answer01.css">
+    <link rel="stylesheet" href="answer02.css">
+</head>
+
+<body>
+    <div class="container ">
+        <p class="js-showWidth">目前的螢幕寬度為:<span></span>px</p>
+        <div class="df">
+            <h2>
+                在<span class="txt_red">1000px 以上 </span>
+                時要呈現【如右圖】<br>【左右間距等分】
+            </h2>
+            <img src="./images/1000px.jpg" alt="">
+        </div>
+        <div class="df">
+            <h2>
+                在<span class="txt_red">1000px 以下 </span>
+                時要呈現【如右圖】<br>【左右貼齊】
+            </h2>
+            <img src="./images/1000down.PNG" alt="">
+        </div>
+        <div class="df">
+            <h2>
+                在<span class="txt_red">768px 以下 </span>
+                時要呈現【如右圖】<br>【中間的間距是左右的2倍】
+            </h2>
+            <img src="./images/768down.PNG" alt="">
+        </div>
+        
+        <h2 class="center txt_xl">
+            【題目一 - 根據上述需求完成】
+            <br>【CSS撰寫請在 - answer01 撰寫】
+        </h2>
+        <h3 class="center">小提示 : 1. 父元素需要給【padding】推出上下，不是左右唷~~~<br>2. 每個圖片的寬需要給【幾%】</h3>
+
+
+        <!-- 撰寫開始  S-->
+        <ul class="list">
+            <li class="item"><img src="./images/1.jpg" alt=""></li>
+            <li class="item"><img src="./images/2.jpg" alt=""></li>
+            <li class="item"><img src="./images/3.jpg" alt=""></li>
+            <li class="item"><img src="./images/4.jpg" alt=""></li>
+            <li class="item"><img src="./images/5.jpg" alt=""></li>
+            <li class="item"><img src="./images/6.jpg" alt=""></li>
+            <li class="item"><img src="./images/7.jpg" alt=""></li>
+            <li class="item"><img src="./images/8.jpg" alt=""></li>
+        </ul>
+        <!-- 撰寫開始  E-->
+
+        <hr class="hrStyle">
+        <div class="df" style="flex-direction: column;">
+            <h2>
+                在<span class="txt_red">768px 以上 </span>
+                時要呈現【如下圖】】
+            </h2>
+            <img style="width:80%" src="./images/navbarPC.PNG" alt="">
+        </div>
+        <div class="df">
+            <h2>
+                在<span class="txt_red">768px 以下 </span>
+                時要呈現【如右圖】
+            </h2>
+            <img src="./images/navbarSP.PNG" alt="">
+        </div>
+
+        <!-- 撰寫開始  S-->
+        <h2 class="center txt_xl">【題目二 - 做出一個導覽列】<br>【CSS撰寫請在 - answer02 撰寫】</h2>
+        <h3 class="center">小提示 : 1. 右邊連結需要給它一些寬度【幾%】<br> 2. 每個連結區塊需要用margin推開</h3>
+
+        <header>
+            <img src="./images/logo.jpg" alt="">
+            <ul class="navList">
+                <li class="navItem"><a class="navLink" href="#">購買連結1</a></li>
+                <li class="navItem"><a class="navLink" href="#">購買連結2</a></li>
+                <li class="navItem"><a class="navLink" href="#">購買連結3</a></li>
+                <li class="navItem"><a class="navLink" href="#">購買連結4</a></li>
+            </ul>
+        </header>
+
+
+        <!-- 撰寫開始  E-->
+
+
+
+    </div>
+
+    <script src="all.js"></script>
+</body>
+
+</html>

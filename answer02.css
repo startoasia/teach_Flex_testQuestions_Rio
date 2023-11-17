@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5%;
+    background-color:red;
+}
+.navList{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+.navItem{
+    background-color: #fff;
+    margin: 0 2%;
+}
+@media (max-width:768px) {
+    header{
+        flex-direction: column;
+    }
+    .navList{
+        flex-direction: column;
+    }
+    .navItem{
+        background-color: #fff;
+        margin:  2%;
+    }
+}

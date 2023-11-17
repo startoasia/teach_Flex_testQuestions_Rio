@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.container {
+    max-width: 1000px;
+    /* height: 1000px; */
+    margin: 0 auto;
+    background-color: skyblue;
+    padding-bottom: 5%;
+}
+
+.js-showWidth {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.js-showWidth span {
+    color: red;
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2.5% 0;
+}
+
+.df img {
+    width: 40%;
+}
+
+.txt_red {
+    color: red;
+}
+.txt_xl{
+    font-size: 2rem;
+}
+.center{
+    text-align: center;
+}
+
+.hrStyle{
+    height: 10px ;
+    background-color: rgb(255, 221, 0);
+}
+/*
+    以上是基本設定 【請勿做更改，容易會有問題】
+    請將答案寫在下面
+*/
